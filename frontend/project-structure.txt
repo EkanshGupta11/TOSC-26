@@ -1,0 +1,75 @@
+tosc26/
+│
+├── app/
+│   │
+│   ├── layout.tsx
+│   ├── page.tsx
+│   ├── globals.css
+│   │
+│   ├── about/
+│   │   └── page.tsx
+│   │
+│   ├── exam/
+│   │   └── page.tsx
+│   │
+│   ├── prepare/
+│   │   ├── page.tsx
+│   │   ├── pyqs/
+│   │      └── page.tsx
+│   │   
+│   │
+│   ├── stories/
+│   │   ├── page.tsx
+│   │   └── [slug]/
+│   │       └── page.tsx
+│   │
+│   ├── results/
+│   │   └── page.tsx
+│   │
+│   ├── partners/
+│   │   └── page.tsx
+│   │
+│   ├── faq/
+│   │   └── page.tsx
+│   │
+│   ├── register/
+│   │   └── page.tsx
+│   │
+│   ├── login/
+│   │   └── page.tsx
+│   │
+│   └── dashboard/
+│       └── page.tsx
+│
+├── lib/
+│   ├── utils.ts
+│   ├── constants.ts
+│   └── api.ts
+│
+├── data/
+│   ├── exam.ts
+│   ├── faqs.ts
+│   ├── stories.ts
+│   └── sponsors.ts
+│
+├── public/
+│   ├── images/
+│   │   ├── hero/
+│   │   ├── stories/
+│   │   ├── sponsors/
+│   │   └── events/
+│   │
+│   ├── icons/
+│   └── fonts/
+│
+├── hooks/
+│   ├── useScroll.ts
+│   └── useMediaQuery.ts
+│
+├── types/
+│   └── index.ts
+│
+├── package.json
+├── tailwind.config.ts
+├── tsconfig.json
+└── next.config.ts
